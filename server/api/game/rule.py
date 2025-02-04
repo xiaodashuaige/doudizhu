@@ -360,7 +360,7 @@ class Rule(object):
         return hand_cards
 
 
-with open('static/rule.json', 'r') as f:
+with open('D:/doudizhu/server/static/rule.json', 'r') as f:
     rule = Rule(json.load(f))
     # from random import sample
     # print(rule._find_best_shot([c for c in 'KKKKwW']))
