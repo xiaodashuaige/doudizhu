@@ -30,6 +30,7 @@ Quick Start 主要看我的注释
     # 或者：set DATABASE_URI=mysql+aiomysql://root:123456@127.0.0.1:3306/ddz
     python app.py
     # 现在访问 http://127.0.0.1:8080
+    # 最后我有一个地方用的绝对路径，你们根据自己情况修改，log会有提醒
 ```
 
 
